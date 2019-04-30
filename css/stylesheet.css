@@ -1,0 +1,35 @@
+
+.bb {
+  fill: none;
+  stroke: #000000;
+}
+
+body {
+  background-color: white;
+}
+
+
+
+.tooltip {
+    position: absolute;				
+    width: auto;
+    height: auto;
+    font: 14px sans-serif;
+    font-weight: bold;
+    background: white;		
+    border-radius: 5px;			
+    pointer-events: none;
+    padding: 3px 3px 3px 3px;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.bar path {
+  display: none;
+}
+
+.bar line {
+  stroke:black;
+}
